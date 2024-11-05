@@ -5,7 +5,7 @@
 
 void initializeStack(Stack *stack) {
     if (stack == NULL) {
-        return;
+        return 4;
     }
 
     stack->data = (int*)calloc(MAX, sizeof(int));
